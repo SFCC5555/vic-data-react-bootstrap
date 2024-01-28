@@ -23,7 +23,6 @@
 body {
   height: 100svh;
   min-height: 620px;
-  background-color: red;
 }
 
 .font-size-3-5-rem {
@@ -32,6 +31,11 @@ body {
 
 .font-size-4-rem {
   font-size: 4rem;
+}
+
+.state-bar {
+  margin-top: 10px;
+  margin-inline: 15px;
 }
 
 .display {
@@ -64,14 +68,18 @@ body {
   height: 3px;
 }
 
+
+
 @media screen and (min-width: 460px) {
   .main-container {
     max-width: 350px;
     max-height: 750px;
+    border-radius: 75px;
   }
 
-  .main-container {
-    border-radius: 75px;
+  .state-bar {
+    margin-top: 30px;
+    margin-inline: 40px;
   }
 
   .keypad {
