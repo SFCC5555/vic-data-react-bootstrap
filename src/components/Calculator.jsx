@@ -28,7 +28,7 @@ const Calculator = () => {
     <div className="d-flex flex-column m-4 ">
       <div
         className={`display overflow-auto text-white fw-light p-4 font-size-${
-          display === "Syntax Error" || display === "Infinity" ? "3-5" : "4"
+          display === "Syntax Error" || display === "Infinity" ? "3" : "4"
         }-rem`}
       >
         {display}
